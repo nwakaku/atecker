@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Pricing from "./components/pages/Pricing";
+import Payment from "./components/pages/Payment";
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path='/pricing'>
             <Pricing/>
+          </Route>
+          <Route path='/payment'>
+            <Payment/>
           </Route>
       </Switch>
         </div>          

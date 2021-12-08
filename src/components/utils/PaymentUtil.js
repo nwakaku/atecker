@@ -1,4 +1,3 @@
-import contact from '../../pic/Contact us-bro.png'
 import React,{useState} from 'react';
 import emailjs  from 'emailjs-com';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
@@ -13,7 +12,7 @@ const Result = () =>{
 
 
 
-const Contact = () => {
+const PaymentUtil = () => {
   const [result, setResult] = useState(false)
 
   const sendEmail = (e) => {
@@ -63,4 +62,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default PaymentUtil
