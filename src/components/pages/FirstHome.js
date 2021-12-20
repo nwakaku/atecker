@@ -7,7 +7,8 @@ import Team from "../utils/Team";
 import Contact from "../utils/Contact";
 import Faq from "../utils/Faq";
 import Footer from "../utils/Footer";
-import OurWorks from "../utils/Ourworks";
+import NewWorks from "../utils/NewWorks";
+import UtilPricing from "../utils/UtilPricing";
 
 // import config from "./configs/chatbotConfig";
 // import MessageParser from "./chatbot/MessageParser";
@@ -21,7 +22,8 @@ const FirstHome = () => {
       <About />
       <Service />
       <Team />
-      <OurWorks />
+      <NewWorks />
+      <UtilPricing />
       <Contact />
       <Faq />
       {/* <Chatbot

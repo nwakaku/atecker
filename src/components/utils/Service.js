@@ -27,10 +27,11 @@ const Service = () => {
             <SiWebmoney /> website development
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-            voluptatem, tempore hic deserunt vel temporibus aperiam recusandae
-            ratione, obcaecati at qui accusamus enim, laudantium eveniet.
-            Inventore voluptas nemo placeat. Voluptas.
+            We don't just sell websites, we create websites that SELL.
+            <br />
+            <br />
+            Let us take you into a deeper experience, make a moment a lasting
+            conveyable memory. Let us help build your tribe.
           </p>
           <a href="#">
             <button className="btn">Let's Chat</button>
@@ -44,10 +45,13 @@ const Service = () => {
             <MdDesignServices /> Graphics Designers
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-            voluptatem, tempore hic deserunt vel temporibus aperiam recusandae
-            ratione, obcaecati at qui accusamus enim, laudantium eveniet.
-            Inventore voluptas nemo placeat. Voluptas.
+            “There are three responses to a piece of design – yes, no, and WOW!
+            Wow is the one we give you.
+            <br />
+            <br />
+            The key to great ideas is not having them, it is executing them. And
+            great ideas come from problems. As designers we call problems,
+            briefs and we call reactions to problems, concepts.” – Atecker
           </p>
           <a href="#">
             <button className="btn">Let's Chat</button>
@@ -56,7 +60,7 @@ const Service = () => {
         <div className="image">
           <img
             src={
-              "https://image.freepik.com/free-vector/flat-world-graphics-day-illustration_23-2148880103.jpg"
+              "https://image.freepik.com/free-vector/graphic-designer-digital-illustrator-concept_277904-12045.jpg"
             }
             alt=""
           />
@@ -74,8 +78,8 @@ const Service = () => {
             <FaPhotoVideo /> Video Editing
           </h3>
           <p>
-            Make video ads and publish in any format to optimize, engage and
-            convert on YouTube, Facebook, Instagram and more.
+            A picture is worth a thousand words.......and a video is worth a
+            million pictures.....
             <br />
             <br />
             Create unique promo videos that drive results for your business.
@@ -94,10 +98,13 @@ const Service = () => {
             <MdOutlineAppSettingsAlt /> App Development
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-            voluptatem, tempore hic deserunt vel temporibus aperiam recusandae
-            ratione, obcaecati at qui accusamus enim, laudantium eveniet.
-            Inventore voluptas nemo placeat. Voluptas.
+            The future of mobile is the future of online. It is how people
+            access online content now.
+            <br />
+            <br />
+            Mobile is becoming not only the new digital hub, but also the bridge
+            to the physical world. That’s why mobile will affect more than just
+            your digital operations — it will transform your entire business.
           </p>
           <a href="#">
             <button className="btn">Let's Chat</button>
