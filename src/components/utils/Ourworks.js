@@ -88,14 +88,29 @@ const Ourworks = () => {
 
         <div className="cards">
           {/* <!-- Starter Plan --> */}
-          {item.map((product) => (
-            <div key={product.id} className="cardy" data-aos="flip-left">
-              <div className="info">
-                <p>{product.name}</p>
-                <img src={product.url} />
-              </div>
-            </div>
-          ))}
+          {item.map((product) => {
+            if (product.categories === "video") {
+              return (
+                <div key={product.id} className="cardy" data-aos="flip-left">
+                  <div className="info">
+                    <p>{product.name}</p>
+                    <video autoPlay muted>
+                      <source src={product.url} />
+                    </video>{" "}
+                  </div>
+                </div>
+              );
+            } else {
+              return (
+                <div key={product.id} className="cardy" data-aos="flip-left">
+                  <div className="info">
+                    <p>{product.name}</p>
+                    <img src={product.url} />
+                  </div>
+                </div>
+              );
+            }
+          })}
         </div>
       </div>
     </div>

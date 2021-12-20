@@ -27,7 +27,7 @@ const works = {
     {
       id: 5,
       name: "meXer T",
-      url: "https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/187483732/original/66f2e8d817af57f7e1b73b37552640d498186ab8.png",
+      url: "https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/170694345/original/df363e7ac460d550b06dbaa484a60e72a53dd227.jpg",
       categories: "logo",
     },
     {
@@ -81,19 +81,37 @@ const works = {
     {
       id: 1,
       name: "vid1",
-      url: "https://fiverr-res.cloudinary.com/video/upload/t_gig_cards_web/o3bo1qodnqxx9d3vri3c.png",
+      url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/xhlsbtighaiscttupwel",
       categories: "video",
     },
     {
       id: 2,
       name: "vid1",
-      url: "https://fiverr-res.cloudinary.com/video/upload/so_5.368387,t_gig_cards_web/sv1o9te2fjyeurellg9x.png",
+      url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/utalunumug7vzh5tf5rc",
       categories: "video",
     },
     {
       id: 3,
       name: "vid1",
-      url: "https://fiverr-res.cloudinary.com/video/upload/t_gig_cards_web/whrloe9iauymqkgnpnev.png",
+      url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v16dwlonpp43hjhsypay",
+      categories: "video",
+    },
+    {
+      id: 4,
+      name: "tiktok",
+      url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/mksoinwewenqbpgiibwz",
+      categories: "video",
+    },
+    {
+      id: 5,
+      name: "sporte",
+      url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/rhdge5vqjolgdqf7kvbv",
+      categories: "video",
+    },
+    {
+      id: 6,
+      name: "Eccommerce",
+      url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/utalunumug7vzh5tf5rc",
       categories: "video",
     },
   ],
