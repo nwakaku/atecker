@@ -10,7 +10,7 @@ const Home = () => {
     history.push("/payment");
   };
   return (
-    <Carousel autoPlay showArrows={true} infiniteLoop={true}>
+    <Carousel autoPlay showArrows={true} infiniteLoop={true} swipeable={false}>
       <section
         id="home"
         class="home"

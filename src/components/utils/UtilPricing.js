@@ -3,8 +3,8 @@ import { GiRingedPlanet } from "react-icons/gi";
 import "./pricing.css";
 import data from "../../data";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css"; // You can also use <link> for styles// ..
+import { SiWhatsapp } from "react-icons/si";
 
 const category = {
   file: [
@@ -126,7 +126,9 @@ const UtilPricing = () => {
               <div className="below_text">
                 <div>
                   <p>speak with us</p>
-                  <p>+234 7083 519 662</p>
+                  <p>
+                    <SiWhatsapp /> 234 7083 519 662
+                  </p>
                 </div>
                 <div>
                   <p>Quick Delivery</p>
