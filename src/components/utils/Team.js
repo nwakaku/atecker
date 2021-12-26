@@ -134,7 +134,10 @@ const Team = () => {
 
         <div className="card">
           <div className="image">
-            <img src="" alt="" />
+            <img
+              src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1149359631.jpg"
+              alt=""
+            />
           </div>
           <div className="info">
             <h3>Gurpreet K</h3>
@@ -153,7 +156,10 @@ const Team = () => {
 
         <div className="card">
           <div className="image">
-            <img src="" alt="" />
+            <img
+              src="https://i1.wp.com/www.lusakatimes.com/wp-content/uploads/2017/03/Linda-Kasonde.jpg?fit=650%2C592&ssl=1"
+              alt=""
+            />
           </div>
           <div className="info">
             <h3>Cassandra P.</h3>
