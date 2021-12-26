@@ -1,8 +1,5 @@
 import React from "react";
-import webpic from "../../pic/Website designer-bro.png";
-import graphic from "../../pic/Designer girl-cuate.png";
-import video from "../../pic/Content creator-pana.png";
-import mobile from "../../pic/Mobile development-bro.png";
+import graph from "../../pic/graph-removebg.png";
 import { SiWebmoney } from "react-icons/si";
 import { MdDesignServices } from "react-icons/md";
 import { FaPhotoVideo } from "react-icons/fa";
@@ -58,12 +55,7 @@ const Service = () => {
           </a>
         </div>
         <div className="image">
-          <img
-            src={
-              "https://image.freepik.com/free-vector/graphic-designer-digital-illustrator-concept_277904-12045.jpg"
-            }
-            alt=""
-          />
+          <img src={graph} alt="" />
         </div>
       </div>
 

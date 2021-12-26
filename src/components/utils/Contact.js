@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import { SiWhatsapp } from "react-icons/si";
 
 const Result = () => {
   return <p>your message ha been successfully sent</p>;
@@ -63,7 +64,14 @@ const Contact = () => {
               rows="10"
               placeholder="message"
             ></textarea>
-            <input type="submit" value="send" />
+            <div className="submit-info">
+              <input type="submit" value="send" />
+              <p>
+                Or WhatsApp
+                <br />
+                <SiWhatsapp /> +234 07083519662
+              </p>
+            </div>
           </form>
           <div>{result ? <Result /> : null}</div>
         </div>

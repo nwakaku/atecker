@@ -17,7 +17,7 @@ const HeaderOne = () => {
   return (
     <header className={colorChange ? "header now" : "header"}>
       <a href="#" className="logo">
-        <i className="fas fa-magic"></i>atecker
+        <i className="fas fa-magic"></i>atecher
       </a>
 
       <div className="fas fa-bars" onClick={() => setNow(!now)}>

@@ -5,6 +5,7 @@ import data from "../../data";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles// ..
 import { SiWhatsapp } from "react-icons/si";
+import { Link, useHistory } from "react-router-dom";
 
 const category = {
   file: [
@@ -32,6 +33,7 @@ const category = {
 };
 
 const UtilPricing = () => {
+  const history = useHistory();
   const { file } = category;
   const [activeLink, setActiveLink] = useState();
   const { products } = data;
@@ -119,7 +121,11 @@ const UtilPricing = () => {
                 <li>{product.p5}</li>
                 <li>{product.p6}</li>
               </ul>
-              <button type="button" className="card-btn">
+              <button
+                type="button"
+                className="card-btn"
+                onClick={() => history.push("/payment")}
+              >
                 {" "}
                 Start Project
               </button>
