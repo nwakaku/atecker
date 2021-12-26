@@ -168,9 +168,7 @@ const Team = () => {
               to my (many) Questions".
               <br />
               They also didn't immediately leave me to fend for myself once my
-              project was complete as I ran into a small technical
-              issue(unrelated to there work). Follow up and follow through were
-              both important to me and they delivered on both
+              project was complete.
             </span>
             <div className="icons">
               <a href="#" className="fab fa-facebook-f"></a>

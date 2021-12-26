@@ -411,8 +411,8 @@ body {
 }
 
 .team .card .image {
-  margin: 1rem 0;
-  padding-top: 4rem;
+  margin: 0.3rem 0;
+  padding-top: 2rem;
 }
 
 .team .card .image img {
@@ -432,7 +432,7 @@ body {
 .team .card .info h3 {
   font-size: 2rem;
   color: #333;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .team .card .info span {
@@ -441,7 +441,7 @@ body {
 }
 
 .team .card .info .icons a {
-  margin-top: 4rem;
+  margin-top: 3rem;
   padding: 0 1rem;
   font-size: 2rem;
   color: #333;
