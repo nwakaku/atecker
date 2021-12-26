@@ -52,7 +52,7 @@ const Contact = () => {
               <input type="text" placeholder="last name" name="lastname" />
             </div>
             <div className="inputBox">
-              <input type="email" placeholder="email" name="phone" />
+              <input type="email" placeholder="phone" name="phone" />
               <input type="email" placeholder="email" name="email" />
             </div>
 
