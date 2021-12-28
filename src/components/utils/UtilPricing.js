@@ -16,18 +16,18 @@ const category = {
     },
     {
       id: 2,
-      text: "Web",
-      to: "web",
+      text: "Instagram Filter",
+      to: "instagram filter",
     },
     {
       id: 3,
-      text: "Video",
+      text: "Custom Video",
       to: "video",
     },
     {
       id: 4,
-      text: "App",
-      to: "app",
+      text: "Explainer Video",
+      to: "explainer",
     },
   ],
 };

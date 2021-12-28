@@ -99,7 +99,7 @@ const Team = () => {
             <h3>Jason Bartz </h3>
             <span>
               “Top-notch service, incredible designs. There is nothing more you
-              could ask for! Thanks to the Logo Knox Team for their remarkable
+              could ask for! Thanks to the Atecher Team for their remarkable
               effort.”
             </span>
             <div className="icons">
@@ -118,11 +118,11 @@ const Team = () => {
             />
           </div>
           <div className="info">
-            <h3>Myles Man </h3>
+            <h3>Kristina Jones</h3>
             <span>
-              “Top-notch service, incredible designs. There is nothing more you
-              could ask for! Thanks to the Logo Knox Team for their remarkable
-              effort.”
+              " Atecher's videos really helped us get the customer engagement
+              boost we were looking for. Looking forward to working with them
+              again. "
             </span>
             <div className="icons">
               <a href="#" className="fab fa-facebook-f"></a>

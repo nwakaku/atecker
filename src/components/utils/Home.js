@@ -46,8 +46,10 @@ const Home = () => {
         id="home"
         class="home"
         style={{
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
           backgroundImage:
-            "url('https://www.logoknox.com/assets/images/home-web-banner.jpg')",
+            "url('https://i.ytimg.com/vi/_ct57yEA14A/maxresdefault.jpg')",
         }}
       >
         <div className="home_text">
@@ -73,8 +75,10 @@ const Home = () => {
         id="home"
         class="home"
         style={{
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
           backgroundImage:
-            "url('https://www.logoknox.com/assets/images/home-banner2.jpg')",
+            "url('https://justcreative.com/wp-content/uploads/2021/05/alexander-shatov-ENOcRpYwT68-unsplash-scaled.jpg')",
         }}
       >
         <div className="home_text">

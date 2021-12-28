@@ -25,11 +25,11 @@ const About = () => {
 
           <h3>We build technological products that build your business</h3>
           <p>
-            With sheer customer satisfaction and retention in mind, we boast a
-            zealous yet professional team of mobile app developers, designers,
-            and creative engineers, who are profoundly dedicated to developing
-            highly intriguing, intuitive mobile apps that cater to Fortune 500
-            companies and leading global enterprises.
+            We are an international team of creative and motivated people from
+            all walks of life. We collectively believe that we can achieve our
+            goals and provide high quality services to our clients at the same
+            time. Our aim is to create win-win situations and let our work speak
+            for itself!
           </p>
           <a href="#">
             <button className="btn">Let's Chat</button>

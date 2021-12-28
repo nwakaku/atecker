@@ -12,18 +12,18 @@ const category = {
     },
     {
       id: 2,
-      text: "Web",
-      to: "web",
+      text: "Instagram Filter",
+      to: "filter",
     },
     {
       id: 3,
-      text: "Video",
+      text: "Custom Video",
       to: "video",
     },
     {
       id: 4,
-      text: "App",
-      to: "app",
+      text: "Explainer Videos",
+      to: "explainer",
     },
   ],
 };
@@ -90,6 +90,17 @@ const Ourworks = () => {
           {/* <!-- Starter Plan --> */}
           {item.map((product) => {
             if (product.categories === "video") {
+              return (
+                <div key={product.id} className="cardy" data-aos="flip-left">
+                  <div className="info">
+                    <p>{product.name}</p>
+                    <video autoPlay muted loop>
+                      <source src={product.url} />
+                    </video>{" "}
+                  </div>
+                </div>
+              );
+            } else if (product.categories === "explainer") {
               return (
                 <div key={product.id} className="cardy" data-aos="flip-left">
                   <div className="info">
