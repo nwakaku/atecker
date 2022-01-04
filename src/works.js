@@ -78,37 +78,37 @@ const works = {
     //explainer development
     {
       id: 1,
-      name: "app1",
+      name: "Elite Explainer",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/fjmpwv16naiqqbkz8nhv",
       categories: "explainer",
     },
     {
       id: 2,
-      name: "app2",
+      name: "Classic Explainer",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/suerwbufno0k564ky3eg",
       categories: "explainer",
     },
     {
       id: 3,
-      name: "app3",
+      name: "Gold Explainer",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/qkpc4rmvm8kpqnbrn2pu",
       categories: "explainer",
     },
     {
       id: 4,
-      name: "Retail App",
+      name: "Retail Explainer",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vpe8mmzf6dy327i5ydlp",
       categories: "explainer",
     },
     {
       id: 5,
-      name: "Figma App",
+      name: "Premium Explainer",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vqepxffrkbty5aegvwja",
       categories: "explainer",
     },
     {
       id: 6,
-      name: "Med App",
+      name: "Med Explainer",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/okx33r4j0kawgpq3ejeg",
       categories: "explainer",
     },

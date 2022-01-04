@@ -37,7 +37,12 @@ const About = () => {
         </div>
 
         <div className="image">
-          <img src={about} alt="" />
+          <img
+            src={
+              "https://www.thefix.com/sites/default/files/styles/article/public/paintingcreate.jpg"
+            }
+            alt=""
+          />
         </div>
       </div>
     </section>

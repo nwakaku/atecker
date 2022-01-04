@@ -107,7 +107,7 @@
   height: 500px;
   width: 32%;
   background-color: #22262c;
-  /* border-radius: 15px; */
+  border-radius: 15px;
   padding: 2rem;
   text-align: center;
   margin: 4rem 0;
@@ -251,6 +251,7 @@
 /* plan */
 .choose_plan {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   color: #3d3c7f;
   font-size: 1.7rem;

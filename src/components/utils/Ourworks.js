@@ -93,7 +93,7 @@ const Ourworks = () => {
               return (
                 <div key={product.id} className="cardy" data-aos="flip-left">
                   <div className="info">
-                    <p>{product.name}</p>
+                    {/* <p>{product.name}</p> */}
                     <video autoPlay muted loop>
                       <source src={product.url} />
                     </video>{" "}
