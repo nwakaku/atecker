@@ -99,8 +99,8 @@ const Team = () => {
             <h3>Jason Bartz </h3>
             <span>
               “Top-notch service, incredible designs. There is nothing more you
-              could ask for! Thanks to the Atecher Team for their remarkable
-              effort.”
+              could ask for! Thanks to the CreativeCorner Team for their
+              remarkable effort.”
             </span>
             <div className="icons">
               <a href="#" className="fab fa-facebook-f"></a>
@@ -120,9 +120,9 @@ const Team = () => {
           <div className="info">
             <h3>Kristina Jones</h3>
             <span>
-              " Atecher's videos really helped us get the customer engagement
-              boost we were looking for. Looking forward to working with them
-              again. "
+              " CreativeCorner's videos really helped us get the customer
+              engagement boost we were looking for. Looking forward to working
+              with them again. "
             </span>
             <div className="icons">
               <a href="#" className="fab fa-facebook-f"></a>
@@ -142,9 +142,9 @@ const Team = () => {
           <div className="info">
             <h3>Gurpreet K</h3>
             <span>
-              “Atecher is a excellent Agency.They do amazing work,responds to
-              requests quickly,is attentive to detail and is a pleasure to work
-              with.I would highly recommend them to anybody ”
+              "CreativeCorner is a excellent Agency.They do amazing
+              work,responds to requests quickly,is attentive to detail and is a
+              pleasure to work with.I would highly recommend them to anybody ”
             </span>
             <div className="icons">
               <a href="#" className="fab fa-facebook-f"></a>
@@ -164,8 +164,8 @@ const Team = () => {
           <div className="info">
             <h3>Cassandra P.</h3>
             <span>
-              "I would definitely hire Atecher again.They were very responsive
-              to my (many) Questions".
+              "I would definitely hire CreativeCorner again.They were very
+              responsive to my (many) Questions".
               <br />
               They also didn't immediately leave me to fend for myself once my
               project was complete.
