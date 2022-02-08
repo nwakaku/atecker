@@ -4,7 +4,7 @@ import { MdAccessibilityNew } from "react-icons/md";
 
 const About = () => {
   return (
-    <section id="about" className="about">
+    <section id="about" className="about" data-aos="fade-down-right">
       <h1 className="heading">about us</h1>
 
       <div className="row containered">

@@ -150,7 +150,7 @@ const data = {
     // videos
     {
       id: 1,
-      price: 499,
+      price: 20,
       header: "Startup Video Package",
       p1: "30 Seconds Video",
       p2: "Professional Script",
@@ -162,7 +162,7 @@ const data = {
     },
     {
       id: 2,
-      price: 699,
+      price: 30,
       header: "Classic Video Package",
       p1: "60 Seconds Video",
       p2: "Sample Theme",
@@ -174,7 +174,7 @@ const data = {
     },
     {
       id: 3,
-      price: 899,
+      price: 50,
       header: "Premium Video Package",
       p1: "90 Seconds Video",
       p2: "Professional Script",
@@ -186,7 +186,7 @@ const data = {
     },
     {
       id: 4,
-      price: 1099,
+      price: 100,
       header: "Unlimited Video Package",
       p1: "120 Second Video",
       p2: "Professional Script",
@@ -199,7 +199,7 @@ const data = {
     //for app
     {
       id: 1,
-      price: 1399,
+      price: 120,
       header: "Basic Explainer Video",
       p1: "30 Seconds Video",
       p2: "Converting Script",
@@ -211,7 +211,7 @@ const data = {
     },
     {
       id: 2,
-      price: 1599,
+      price: 150,
       header: "professional Explainer Video",
       p1: "60 Seconds Video",
       p2: "Converting Script",
@@ -223,7 +223,7 @@ const data = {
     },
     {
       id: 3,
-      price: 1899,
+      price: 180,
       header: "premium Explainer Video",
       p1: "90 Seconds Video",
       p2: "Converting Script",

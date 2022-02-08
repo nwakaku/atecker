@@ -10,7 +10,7 @@ const Service = () => {
     <section id="service" className="service">
       <h1 className="heading">our services</h1>
 
-      <div className="row containered">
+      <div className="row containered" data-aos="fade-down">
         <div className="image">
           <img src={graph} alt="" />
         </div>
@@ -36,7 +36,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="row containered">
+      <div className="row containered" data-aos="fade-up">
         <div className="content">
           <h3>
             <MdDesignServices /> Graphics & Instagram Filters
@@ -62,7 +62,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="row containered">
+      <div className="row containered" data-aos="fade-down">
         <div className="image">
           <video autoPlay loop>
             <source src="https://f.hubspotusercontent20.net/hubfs/165225/wevideo-website-theme/videos/thumb/business/Biz_Page_2.mp4" />
@@ -87,7 +87,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="row containered">
+      <div className="row containered" data-aos="fade-up">
         <div className="content">
           <h3>
             <MdOutlineAppSettingsAlt /> Animated Explainer Videos

@@ -44,7 +44,7 @@ const Team = () => {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-        <div className="card">
+        <div className="card" data-aos="flip-left">
           <div className="image">
             <img
               src="https://media.istockphoto.com/photos/portrait-of-a-businesswoman-in-the-office-picture-id1264290292?b=1&k=20&m=1264290292&s=170667a&w=0&h=ZNHnTs8w-_9gi1DHTX-pRaZSdvQYhtCgfoddDfaywyE="
@@ -66,7 +66,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="flip-left">
           <div className="image">
             <img
               src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -88,7 +88,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="flip-left">
           <div className="image">
             <img
               src="https://media.istockphoto.com/photos/happy-mature-businessman-standing-with-folded-arms-picture-id1138561531?b=1&k=20&m=1138561531&s=170667a&w=0&h=2jAMEIbXN7LN-9cg04cFhTJfnzbQqL6iURT0GBssHgQ="
@@ -110,7 +110,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="flip-left">
           <div className="image">
             <img
               src="https://media.istockphoto.com/photos/portrait-of-a-pride-businesswoman-standing-with-arms-crossed-in-the-picture-id1264705934?b=1&k=20&m=1264705934&s=170667a&w=0&h=1l3zVNE3yo0hMfSGJLcMxHhdslV73UyVe56H2Cd8bdo="
@@ -132,7 +132,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="flip-left">
           <div className="image">
             <img
               src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1149359631.jpg"
@@ -154,7 +154,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="flip-left">
           <div className="image">
             <img
               src="https://i1.wp.com/www.lusakatimes.com/wp-content/uploads/2017/03/Linda-Kasonde.jpg?fit=650%2C592&ssl=1"

@@ -63,15 +63,15 @@ const Footer = () => {
           <div class="footer-col">
             <h4>follow us</h4>
             <div class="social-links">
-              <Link to="/">
+              <a href="https://www.instagram.com/crreativecorner/">
                 <i class="fab fa-facebook-f"></i>
-              </Link>
+              </a>
               <Link to="/">
                 <i class="fab fa-twitter"></i>
               </Link>
-              <Link to="/">
+              <a href="https://www.instagram.com/crreativecorner/">
                 <i class="fab fa-instagram"></i>
-              </Link>
+              </a>
               <Link to="/">
                 <i class="fab fa-linkedin-in"></i>
               </Link>

@@ -16,9 +16,9 @@ const HeaderOne = () => {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <header className={colorChange ? "header now" : "header"}>
-      <a href="#" className="logo">
-        <i className="fas fa-magic"></i>CreativeCorner
-      </a>
+      <Link to={"/"} className="logo">
+        CrreativeCorner
+      </Link>
 
       <div className="fas fa-bars" onClick={() => setNow(!now)}>
         <i className="im im-menu"></i>

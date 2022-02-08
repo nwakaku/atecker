@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
 
 :root {
-  --color: #6c5ce7;
+  --color: #4b3ead;
 }
 
 * {
@@ -102,7 +102,7 @@ body {
 }
 
 .now {
-  background-color: #6a5ae6;
+  background-color: #4b3ead;
 }
 
 .header .logo {
@@ -160,10 +160,14 @@ body {
   text-align: center;
 }
 
+.home_text div {
+  background-color: rgba(34, 34, 34, 0.322);
+  border-radius: 1rem;
+}
+
 .home .banner {
   color: #fff;
   font-size: 5rem;
-  background-color: rgba(34, 34, 34, 0.322);
   padding: 1rem;
 }
 
@@ -171,7 +175,6 @@ body {
   color: #eee;
   font-size: 2.5rem;
   font-weight: 400;
-  background-color: rgba(34, 34, 34, 0.322);
   padding: 1rem;
 }
 
@@ -317,7 +320,7 @@ body {
 }
 
 .service .row {
-  margin: 2rem 0;
+  margin: 4rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;

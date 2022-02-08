@@ -22,13 +22,16 @@ const Home = () => {
         }}
       >
         <div className="home_text">
-          <h1 class="banner">
-            Animated Explainer Videos that tastes different
-          </h1>
-          <h3 class="slogan">
-            if pictures speak louder than words,videos speak even louder.we
-            produce inspirational animated videos for business globally
-          </h3>
+          <div>
+            <h1 class="banner">
+              Animated Explainer Videos that tastes different
+            </h1>
+            <h3 class="slogan">
+              if pictures speak louder than words,videos speak even louder.we
+              produce inspirational animated videos for business globally
+            </h3>
+          </div>
+
           <a href="#">
             <button onClick={handleClick}>Let's Chat</button>
           </a>
@@ -53,11 +56,14 @@ const Home = () => {
         }}
       >
         <div className="home_text">
-          <h1 class="banner">Digital Experience & Engineered To Perform</h1>
-          <h3 class="slogan">
-            we take integrated approach to creating highly engaging Digital
-            properties and & focused creative solutions
-          </h3>
+          <div>
+            <h1 class="banner">Digital Experience & Engineered To Perform</h1>
+            <h3 class="slogan">
+              we take integrated approach to creating highly engaging Digital
+              properties and & focused creative solutions
+            </h3>
+          </div>
+
           <a href="#">
             <button onClick={handleClick}>Let's Chat</button>
           </a>
@@ -82,11 +88,14 @@ const Home = () => {
         }}
       >
         <div className="home_text">
-          <h1 class="banner">Innovative Logo & Branding Solution</h1>
-          <h3 class="slogan">
-            We are committed toward professional logo designs tailored to your
-            brand's culture,core values and distinction
-          </h3>
+          <div>
+            <h1 class="banner">Innovative Logo & Branding Solution</h1>
+            <h3 class="slogan">
+              We are committed toward professional logo designs tailored to your
+              brand's culture,core values and distinction
+            </h3>
+          </div>
+
           <a href="#">
             <button onClick={handleClick}>Let's Chat</button>
           </a>

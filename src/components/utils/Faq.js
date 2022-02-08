@@ -3,7 +3,7 @@ import { FaFeatherAlt } from "react-icons/fa";
 
 const Faq = () => {
   return (
-    <section id="faq" className="service">
+    <section id="faq" className="service" data-aos="fade-down-right">
       <h1 className="heading">Who We Are</h1>
 
       <div className="row containered">
