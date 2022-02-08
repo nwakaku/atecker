@@ -27,8 +27,8 @@ const Home = () => {
               Animated Explainer Videos that tastes different
             </h1>
             <h3 class="slogan">
-              if pictures speak louder than words,videos speak even louder.we
-              produce inspirational animated videos for business globally
+              Wisdom is supreme; therefore get wisdom. Though it cost all you
+              have, get understanding.
             </h3>
           </div>
 
@@ -52,15 +52,16 @@ const Home = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundImage:
-            "url('https://i.ytimg.com/vi/_ct57yEA14A/maxresdefault.jpg')",
+            "url('https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg)",
         }}
       >
         <div className="home_text">
           <div>
             <h1 class="banner">Digital Experience & Engineered To Perform</h1>
             <h3 class="slogan">
-              we take integrated approach to creating highly engaging Digital
-              properties and & focused creative solutions
+              Our purpose is that you may be encouraged in heart and united in
+              love, so that you may have the full riches of complete
+              understanding, in order that you may know the mystery of God,
             </h3>
           </div>
 
@@ -91,8 +92,9 @@ const Home = () => {
           <div>
             <h1 class="banner">Innovative Logo & Branding Solution</h1>
             <h3 class="slogan">
-              We are committed toward professional logo designs tailored to your
-              brand's culture,core values and distinction
+              Do not be conformed to this world, but be transformed by the
+              renewal of your mind, that by testing you may discern what is the
+              will of God, what is good and acceptable and perfect.
             </h3>
           </div>
 
