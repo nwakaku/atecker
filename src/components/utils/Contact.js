@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact">
+    <section id="contact" className="contact" data-aos="fade-down-left">
       <h1 className="heading">contact us</h1>
 
       <div className="row containered">

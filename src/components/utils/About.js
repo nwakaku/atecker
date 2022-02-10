@@ -1,5 +1,4 @@
 import React from "react";
-import about from "../../pic/about.png";
 import { MdAccessibilityNew } from "react-icons/md";
 
 const About = () => {
