@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { GiRingedPlanet } from "react-icons/gi";
 import "./pricing.css";
 import data from "../../data";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles// ..
 import { SiWhatsapp } from "react-icons/si";
 import { Link, useHistory } from "react-router-dom";
 
@@ -50,10 +48,6 @@ const UtilPricing = () => {
     );
     setItem(newItems);
   };
-
-  useEffect(() => {
-    AOS.init();
-  }, [present]);
 
   return (
     <div className="body">
