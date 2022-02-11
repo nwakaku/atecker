@@ -48,13 +48,13 @@
 
 .title p {
   font-size: 2rem;
-  color: #a4a3fe;
+  color: #232f3e;
 }
 
 .title h1 {
   font-size: 4rem;
   font-weight: 900;
-  color: #3d3c7f;
+  color: #131a22;
 }
 
 .body .toggle-switch {
@@ -72,7 +72,7 @@
   -moz-appearance: none;
   width: 50px;
   height: 25px;
-  background-color: #bc1e4a;
+  background-color: #ff9900;
   border-radius: 25px;
   margin: 0 1rem;
   position: relative;
@@ -148,7 +148,7 @@
 .body .card ul li:before {
   content: "•";
   margin-right: 0.5rem;
-  color: #bc1e4a;
+  color: #ff9900;
   font-size: 2rem;
 }
 
@@ -160,7 +160,7 @@
   margin-top: 1rem;
   width: 100%;
   background-color: transparent;
-  border: 1px solid #bc1e4a;
+  border: 1px solid #131a22;
   color: white;
   font-size: 1.5rem;
   padding: 0.7rem;
@@ -170,7 +170,7 @@
 .body #card-1 .card-btn:hover,
 #card-3 .card-btn:hover,
 .active .card-btn {
-  background-color: #bc1e4a;
+  background-color: #ff9900;
 }
 
 .cards .below_text {

@@ -1,5 +1,6 @@
 import React from "react";
 import { MdAccessibilityNew } from "react-icons/md";
+import about from "../../pic/aa.png";
 
 const About = () => {
   return (
@@ -8,20 +9,6 @@ const About = () => {
 
       <div className="row containered">
         <div className="content">
-          <div
-            style={{
-              display: "flex",
-              alignItem: "center",
-              justifyContent: "center",
-            }}
-          >
-            <MdAccessibilityNew
-              style={{ color: "#ff2e53", fontSize: "25px" }}
-            />
-            <p>About Us</p>
-            <br />
-          </div>
-
           <h3>We build technological products that build your business</h3>
           <p>
             We are an international team of creative and motivated people from
@@ -36,12 +23,7 @@ const About = () => {
         </div>
 
         <div className="image">
-          <img
-            src={
-              "https://www.thefix.com/sites/default/files/styles/article/public/paintingcreate.jpg"
-            }
-            alt=""
-          />
+          <img src={about} alt="" />
         </div>
       </div>
     </section>

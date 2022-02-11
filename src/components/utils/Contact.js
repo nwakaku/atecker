@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { SiWhatsapp } from "react-icons/si";
+import contact from "../../pic/bb.png";
 
 const Result = () => {
   return <p>your message ha been successfully sent</p>;
@@ -38,12 +39,7 @@ const Contact = () => {
 
       <div className="row containered">
         <div className="image">
-          <img
-            src={
-              "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
-            }
-            alt=""
-          />
+          <img src={contact} alt="" />
         </div>
 
         <div className="form-container">

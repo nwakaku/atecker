@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../pic/CC.png";
 
 const HeaderOne = () => {
   const [now, setNow] = useState(true);
@@ -17,7 +18,7 @@ const HeaderOne = () => {
   return (
     <header className={colorChange ? "header now" : "header"}>
       <Link to={"/"} className="logo">
-        CrreativeCorner
+        <img src={logo} />
       </Link>
 
       <div className="fas fa-bars" onClick={() => setNow(!now)}>

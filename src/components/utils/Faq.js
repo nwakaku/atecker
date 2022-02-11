@@ -1,5 +1,6 @@
 import faq from "../../pic/Startup life-amico.png";
 import { FaFeatherAlt } from "react-icons/fa";
+import about from "../../pic/aa.png";
 
 const Faq = () => {
   return (
@@ -8,7 +9,7 @@ const Faq = () => {
 
       <div className="row containered">
         <div className="image">
-          <img src={faq} alt="" />
+          <img src={about} alt="" />
         </div>
         <div className="content">
           <h3>

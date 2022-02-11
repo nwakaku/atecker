@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import contact from "../../pic/contact.png";
 import { SiWhatsapp } from "react-icons/si";
+import contact from "../../pic/bb.png";
 
 const Result = () => {
   return <p>your message ha been successfully sent</p>;
