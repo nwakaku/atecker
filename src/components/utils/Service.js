@@ -8,8 +8,13 @@ import mobileapp from "../../pic/mobileapp.png";
 import block from "../../pic/blockchain.png";
 import { SiWebmoney } from "react-icons/si";
 import { MdMobileFriendly } from "react-icons/md";
+import { useHistory } from "react-router-dom";
 
 const Service = () => {
+  let history = useHistory();
+  const handleClick = () => {
+    history.push("/payment");
+  };
   return (
     <section id="service" className="service">
       <h1 className="heading">our services</h1>
@@ -34,8 +39,10 @@ const Service = () => {
             to offer. If executed properly, a logo ensures that your company is
             recognized and remembered.
           </p>
-          <a href="#">
-            <button className="btn">Let's Chat</button>
+          <a>
+            <button className="btn" onClick={() => handleClick()}>
+              Let's Chat
+            </button>
           </a>
         </div>
       </div>
@@ -54,8 +61,10 @@ const Service = () => {
             great ideas come from problems. As designers we call problems,
             briefs and we call reactions to problems, concepts.” – Atecker
           </p>
-          <a href="#">
-            <button className="btn">Let's Chat</button>
+          <a>
+            <button className="btn" onClick={() => handleClick()}>
+              Let's Chat
+            </button>
           </a>
         </div>
         <div className="image">
@@ -85,8 +94,10 @@ const Service = () => {
             Leave a lasting impression with ultra high-quality resolution for
             the best viewing experience on any display.
           </p>
-          <a href="#">
-            <button className="btn">Let's Chat</button>
+          <a>
+            <button className="btn" onClick={() => handleClick()}>
+              Let's Chat
+            </button>
           </a>
         </div>
       </div>
@@ -105,8 +116,10 @@ const Service = () => {
             We offer you in whatever language you choose with effiency of
             delivery
           </p>
-          <a href="#">
-            <button className="btn">Let's Chat</button>
+          <a>
+            <button className="btn" onClick={() => handleClick()}>
+              Let's Chat
+            </button>
           </a>
         </div>
         <div className="image">
@@ -135,8 +148,10 @@ const Service = () => {
             We offer you in whatever language you choose with effiency of
             delivery
           </p>
-          <a href="#">
-            <button className="btn">Let's Chat</button>
+          <a>
+            <button className="btn" onClick={() => handleClick()}>
+              Let's Chat
+            </button>
           </a>
         </div>
       </div>
@@ -157,8 +172,10 @@ const Service = () => {
             We offer you in whatever language you choose with effiency of
             delivery
           </p>
-          <a href="#">
-            <button className="btn">Let's Chat</button>
+          <a>
+            <button className="btn" onClick={() => handleClick()}>
+              Let's Chat
+            </button>
           </a>
         </div>
         <div className="image">
