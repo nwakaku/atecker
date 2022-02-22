@@ -2,6 +2,7 @@ import FirstHome from "./components/pages/FirstHome";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Pricing from "./components/pages/Pricing";
 import Payment from "./components/pages/Payment";
+import "react-chatbot-kit/build/main.css";
 
 function App() {
   return (

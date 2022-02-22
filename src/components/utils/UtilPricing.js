@@ -27,6 +27,11 @@ const category = {
       text: "Explainer Video",
       to: "explainer",
     },
+    {
+      id: 5,
+      text: "Website Development",
+      to: "web",
+    },
   ],
 };
 

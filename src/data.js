@@ -115,7 +115,7 @@ const data = {
       price: 300,
       header: "Elite E-commerce Package",
       p1: "Unique 5 Pages Website Design",
-      p2: "Custom,Interactive,Dynamic & High End Design",
+      p2: "Custom & High End Design",
       p3: "5 Stock Images ",
       p4: "5 Banner Designs",
       p5: "Sliding Banner",
@@ -127,7 +127,7 @@ const data = {
       price: 450,
       header: "Identity Ecommerce Package",
       p1: "10 Unique Pages Website Design",
-      p2: "Custom,Interactive,Dynamic & HighEnd Design",
+      p2: "Custom & HighEnd Design",
       p3: "Custom E-commerce Design",
       p4: "Interactive Sliding Banner",
       p5: "10 Stock Images",
@@ -139,7 +139,7 @@ const data = {
       price: 700,
       header: "Corporate E-commerce Package",
       p1: "15 to 20 Unique Pages Website Design",
-      p2: "Custom Made,Interactive,Dynamic & High End Design",
+      p2: "Custom Made & High End Design",
       p3: "MERN Stack Development",
       p4: "Interactive Sliding Banners",
       p5: "Custom E-commerce Design",
@@ -147,7 +147,7 @@ const data = {
       categories: "web",
     },
 
-    // videos
+    // custom videos
     {
       id: 1,
       price: 20,
@@ -196,7 +196,7 @@ const data = {
       p6: "Voice - Over & Sound Effects",
       categories: "video",
     },
-    //for app
+    //for explainer video
     {
       id: 1,
       price: 120,

@@ -4,6 +4,10 @@ import { IoLogoAmplify } from "react-icons/io5";
 import { MdDesignServices } from "react-icons/md";
 import { FaPhotoVideo } from "react-icons/fa";
 import { MdOutlineAppSettingsAlt } from "react-icons/md";
+import mobileapp from "../../pic/mobileapp.png";
+import block from "../../pic/blockchain.png";
+import { SiWebmoney } from "react-icons/si";
+import { MdMobileFriendly } from "react-icons/md";
 
 const Service = () => {
   return (
@@ -109,6 +113,56 @@ const Service = () => {
           <video autoPlay loop>
             <source src="https://f.hubspotusercontent20.net/hubfs/165225/wevideo-website-theme/videos/thumb/homepage/Home_Page_3.mp4" />
           </video>
+        </div>
+      </div>
+
+      <div className="row containered" data-aos="fade-up">
+        <div className="image">
+          <img src={block} />
+        </div>
+        <div className="content">
+          <h3>
+            <SiWebmoney /> Website & Web3 Development
+          </h3>
+          <p>
+            We are happy to announce that we are the first agency in the world
+            that actual deliver web 3 applications. Contact us to convert your
+            existing web app into web 3 applications The Web3 changes the data
+            structures in the backend of the Internet, introducing a universal
+            state layer, often by incentivizing network actors with a token“
+            <br />
+            <br />
+            We offer you in whatever language you choose with effiency of
+            delivery
+          </p>
+          <a href="#">
+            <button className="btn">Let's Chat</button>
+          </a>
+        </div>
+      </div>
+
+      <div className="row containered" data-aos="fade-up">
+        <div className="content">
+          <h3>
+            {" "}
+            <MdMobileFriendly /> Mobile & System App's Using Web 3.0 Techs
+          </h3>
+          <p>
+            “Mobile is becoming not only the new digital hub, but also the
+            bridge to the physical world. That’s why mobile will affect more
+            than just your digital operations — it will transform your entire
+            business.”
+            <br />
+            <br />
+            We offer you in whatever language you choose with effiency of
+            delivery
+          </p>
+          <a href="#">
+            <button className="btn">Let's Chat</button>
+          </a>
+        </div>
+        <div className="image">
+          <img src={mobileapp} alt />
         </div>
       </div>
     </section>

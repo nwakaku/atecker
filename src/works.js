@@ -37,7 +37,7 @@ const works = {
       categories: "logo",
     },
 
-    //web pictures
+    //instagram filters pictures
     {
       id: 1,
       name: "wesite",
@@ -149,6 +149,44 @@ const works = {
       name: "Eccommerce",
       url: "https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/utalunumug7vzh5tf5rc",
       categories: "video",
+    },
+
+    // web pictures
+    {
+      id: 1,
+      name: "wesite",
+      url: "https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs3/146792269/original/e7654e62bf6d8d2fb479c7c89fc7616fb794e92a.jpg",
+      categories: "web",
+    },
+    {
+      id: 2,
+      name: "wesite2",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZn1Poc9JGQWcj5g9UeEMMKCC6ZE8LSv_65TmGgAkDgOA2NrTfql9xBt4nNdv33DfThpc&usqp=CAU",
+      categories: "web",
+    },
+    {
+      id: 3,
+      name: "wesite",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYlhm9jKU__XldjZ6fgRQ47ONTORZ9b-TYNLeIQCj__mu7gfMI1hMDPdB1ZdjUsK9U98g&usqp=CAU",
+      categories: "web",
+    },
+    {
+      id: 4,
+      name: "Ecommerce",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1CrM0ycbSiESDnRw6iBWaXh6rkHaRvcVn_wfAgsRjdbYj6NpYbsw34D23k-difS0jdWU&usqp=CAU",
+      categories: "web",
+    },
+    {
+      id: 5,
+      name: "Clothing",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSayOa8NmA6YtIOIfvN7uhwxzdl9oCqbYw-ZigmOlOmNDtO4yIxtUZtbfJMaMfMO5AhxQU&usqp=CAU",
+      categories: "web",
+    },
+    {
+      id: 6,
+      name: "chocolates",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeS6ak8YIunzFKcBfz3EKjpMzlahUyNCKph_Mu1a9onV7xH_CS6H2c2SeA_6OONQtqe74&usqp=CAU",
+      categories: "web",
     },
   ],
 };
