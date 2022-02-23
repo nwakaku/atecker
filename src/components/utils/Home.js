@@ -85,7 +85,7 @@ const Home = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundImage:
-            "url('https://justcreative.com/wp-content/uploads/2021/05/alexander-shatov-ENOcRpYwT68-unsplash-scaled.jpg')",
+            "url('https://thumbs.dreamstime.com/b/flat-line-design-website-banner-market-research-modern-vector-illustration-web-marketing-print-material-69761306.jpg')",
         }}
       >
         <div className="home_text">

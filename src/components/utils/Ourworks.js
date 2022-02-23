@@ -3,7 +3,7 @@ import { MdWorkspacesOutline } from "react-icons/md";
 import "./pricing.css";
 import works from "../../works";
 
-const category = {
+const something = {
   file: [
     {
       id: 1,
@@ -34,7 +34,7 @@ const category = {
 };
 
 const Ourworks = () => {
-  const { file } = category;
+  const { file } = something;
   const [activeLink, setActiveLink] = useState();
   const { products } = works;
   const present = products.filter((product) => product.categories === "logo");
