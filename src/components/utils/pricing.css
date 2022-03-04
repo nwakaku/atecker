@@ -26,12 +26,12 @@
 }
 
 .body p.current-plan {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   margin-bottom: 0.5rem;
 }
 
 .body p.plan-type {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: 900;
 }
 
@@ -47,12 +47,12 @@
 }
 
 .title p {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: #232f3e;
 }
 
 .title h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 900;
   color: #131a22;
 }
@@ -114,23 +114,23 @@
 }
 
 .body .card-title {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: #a4a3fe;
   font-weight: lighter;
   margin-bottom: 1rem;
 }
 
 .body .card-price {
-  font-size: 4rem;
+  /* font-size: 4rem; */
   text-align: center;
 }
 
-.body h2 > span {
-  font-size: 2rem;
+.choose_plan p {
+  font-size: 1.2rem;
 }
 
-.body #card-3 .card-price {
-  font-size: 4rem;
+.choose_plan p:hover {
+  background-color: #ff9900;
 }
 
 .body #card-1 .card-price {
@@ -141,15 +141,12 @@
 }
 .body .card ul {
   text-align: left;
-  font-size: 1.5rem;
-  font-weight: lighter;
 }
 
 .body .card ul li:before {
   content: "•";
   margin-right: 0.5rem;
   color: #ff9900;
-  font-size: 2rem;
 }
 
 .body .card ul li {
@@ -162,7 +159,6 @@
   background-color: transparent;
   border: 1px solid #131a22;
   color: white;
-  font-size: 1.5rem;
   padding: 0.7rem;
   border-radius: 5px;
 }
@@ -178,6 +174,7 @@
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #fff;
+  font-size: 0.7rem !important;
 }
 
 .body #maus {
@@ -187,18 +184,17 @@
   margin-top: 1rem;
   width: 100%;
   padding: 1rem 2rem;
-  font-size: 1rem;
   border-radius: 5px;
 }
 
 .body option {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   background-color: #333;
 }
 
 .body .note {
   color: #bc1e4a;
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   text-align: left;
   display: block;
   margin-top: 5px;
@@ -235,6 +231,7 @@
   }
   .body .card {
     width: 70%;
+    font-size: 1.5rem;
   }
 }
 
@@ -254,7 +251,6 @@
   flex-wrap: wrap;
   justify-content: center;
   color: #3d3c7f;
-  font-size: 1.7rem;
 }
 
 .choose_plan p {
@@ -262,7 +258,10 @@
   padding: 1.5rem;
   cursor: pointer;
 }
+.choose_plan p:hover {
+  background-color: #ff9900;
+}
 
 p .active_plan {
-  background: navy !important;
+  background: #ff9900 !important;
 }

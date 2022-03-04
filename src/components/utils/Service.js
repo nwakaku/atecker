@@ -19,7 +19,7 @@ const Service = () => {
     <section id="service" className="service">
       <h1 className="heading">our services</h1>
 
-      <div className="row containered" data-aos="fade-down">
+      <div className="row containered">
         <div className="image">
           <img src={graph} alt="" />
         </div>

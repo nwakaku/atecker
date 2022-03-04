@@ -103,7 +103,7 @@ const UtilPricing = () => {
               id="card-1"
               data-aos="flip-left"
             >
-              <h1 className="card-title">{product.header}</h1>
+              <h2 className="card-title">{product.header}</h2>
               <h2 className="card-price" id="starter-price">
                 {" "}
                 ${product.price}{" "}

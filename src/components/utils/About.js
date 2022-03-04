@@ -1,8 +1,14 @@
 import React from "react";
 import { MdAccessibilityNew } from "react-icons/md";
 import about from "../../pic/aa.png";
+import { useHistory } from "react-router-dom";
 
 const About = () => {
+  let history = useHistory();
+  const handleClick = () => {
+    history.push("/microroute");
+  };
+
   return (
     <section id="about" className="about" data-aos="fade-down-right">
       <h1 className="heading">about us</h1>
@@ -18,7 +24,9 @@ const About = () => {
             for itself!
           </p>
           <a href="#">
-            <button className="btn">Let's Chat</button>
+            <button onClick={() => handleClick()} className="btn">
+              Learn More
+            </button>
           </a>
         </div>
 

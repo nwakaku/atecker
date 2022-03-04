@@ -36,7 +36,7 @@ const HeaderOne = () => {
             </NavLink>
           </li>
           <li>
-            <a href="#about">about</a>
+            <a href="/#about">about</a>
           </li>
           <li>
             <a href="#service">services</a>

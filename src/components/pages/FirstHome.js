@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import HeaderOne from "../utils/HeaderOne";
 import About from "../utils/About";
 import Home from "../utils/Home";
@@ -9,30 +8,7 @@ import Faq from "../utils/Faq";
 import Footer from "../utils/Footer";
 import NewWorks from "../utils/NewWorks";
 import UtilPricing from "../utils/UtilPricing";
-
-import config from "../../chatbot/config.js";
-import MessageParser from "../../chatbot/MessageParser.js";
-import ActionProvider from "../../chatbot/ActionProvider.js";
-import Chatbot from "react-chatbot-kit";
-
-const Chat = () => {
-  const [dat, setDat] = useState(true);
-
-  return (
-    <>
-      <div className="chatbot">
-        <div className="arrow" onClick={() => setDat(!dat)}></div>{" "}
-        <div className={dat ? "mains" : "mainy"}>
-          <Chatbot
-            config={config}
-            messageParser={MessageParser}
-            actionProvider={ActionProvider}
-          />
-        </div>
-      </div>
-    </>
-  );
-};
+import Chat from "../utils/Chat";
 
 const FirstHome = () => {
   return (
