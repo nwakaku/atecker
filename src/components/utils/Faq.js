@@ -23,7 +23,7 @@ const Faq = () => {
             digital strategies and out of the box solutions to fulfill your
             digital needs.
           </p>
-          <span>
+          <p>
             Every client we take on board is our partner, with whom we want to
             develop fruitful long-term business relationships. We can work as
             collaborative unit, in sync with the client input regularly. Some
@@ -33,7 +33,7 @@ const Faq = () => {
             if you want to give us the entire design freedom and want minimal
             interaction. End result is always about helping our clients achieve
             measurable results in all our focus areas.
-          </span>
+          </p>
         </div>
       </div>
     </section>
